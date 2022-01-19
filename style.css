@@ -1,0 +1,88 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1,.box3{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    height: 250px;
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.play{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons button{
+    background-color: transparent;
+    cursor: pointer;
+}
+.box2{
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxx{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boxx1,.boxx2{
+    width: 50%;
+    height:200px;
+    border: 2px solid black;
+    text-align: center;
+}
+.head{
+    border-bottom: 4px solid black;
+    width: 80%;
+    margin: 0px auto;
+}
+#comp,#user{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    font-size: 26px;
+    font-weight: bold;
+
+}
