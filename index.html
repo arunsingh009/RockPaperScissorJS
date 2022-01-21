@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,58 @@
     <title>Rock Paper Scissor</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <main>
+        <div class="bigbox" id="bigbox">
+            <div class="menu" id="menu">
+                <div class="start">
+                    <!-- <div class="gif"> <img  src="./images/rocks.gif" alt=""></div> -->
+                    <div class="logo"> <img src="./images/rock logo.png" alt=""></div>
+                    <div class="button">
+                        <input type="text" maxlength="8" id="uname" placeholder="Enter Your Name">
+                        <button onclick="Start()">Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <h1>Rock Paper Scissor</h1>
         <div class="box">
-        <div class="box1">
-            <div class="icons">
-            <div class="play">Rock</div>
-            <div class="play">Paper</div>
-            <div class="play">Scissor</div>
-        </div>
-        </div>
-        <div class="box2">
-            <div class="boxx">
-            <div class="boxx1">
-                <h2 class="head">Computer</h2>
-                <div id="comp"></div>
+            <div class="box1">
+                <div class="icons">
+                    <button class="play" onclick="play1()">Rock</button>
+                    <button class="play" onclick="play2()">Paper</button>
+                    <button class="play" onclick="play3()">Scissor</button>
+                </div>
             </div>
-
-            <div class="boxx2">
-                <h2 class="head">User</h2>
-                <div id="user"></div>
+            <div class="box2">
+                <div class="boxx">
+                    <div class="boxx1">
+                        <h2 class="head" id="User">User</h2>
+                        <div id="user"></div>     
+                    </div>
+                    <div class="boxx2">    
+                        <h2 class="head">Computer</h2>
+                        <div id="comp"></div>
+                    </div>
+                </div>
+                <div id="win"></div>
+            </div>
+            <div class="box3">
+                <div class="SBoard">
+                    <h2>Score Board</h2>
+                    
+                </div>
             </div>
         </div>
-        <div id="win"></div>
-        </div>
-        <div class="box3">
-            <div class="icons">
-                <button  class="play" onclick="play1()" >Rock</button>
-                <button class="play" onclick="play2()" >Paper</button>
-                <button class="play" onclick="play3()" >Scissor</button>
-            </div>
-        </div>
-    </div>
     </main>
     <script src="index.js"></script>
+    <script>
+       
+        
+    </script>
 </body>
+
 </html>

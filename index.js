@@ -1,3 +1,14 @@
+function Start() {
+    var name = document.getElementById("uname").value;
+    var me = document.getElementById("bigbox");
+    var user = document.getElementById("User");
+    me.style.display="none";
+    if(name.trim() == ""){
+    user.innerHTML = "User";
+    }else{
+        user.innerHTML = name;
+    }   
+}
 function play(){ 
     var arr=[0,1,2];
     var random;

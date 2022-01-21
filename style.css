@@ -67,8 +67,18 @@ main{
 .boxx1,.boxx2{
     width: 50%;
     height:200px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
+}
+.boxx1{
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.boxx2{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 .head{
     border-bottom: 4px solid black;
@@ -86,3 +96,65 @@ main{
     font-weight: bold;
 
 }
+.bigbox::after{
+    content: "";
+    background-color: black;
+    opacity: 0.4;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.menu{
+    width: 60%;
+    height: 450px;
+    background-image: url(./images/rocks.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    z-index: 1; 
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+.start{
+    width: 600px;
+    height: 400px;
+    margin: 0px auto;
+}
+.button{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0px auto;
+}
+.button input{
+    height: 30px;
+    width: 80%;
+}
+.button button{
+    height: 25px;
+    width: 100px;
+    cursor: pointer;
+
+}
+.logo{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0px auto;
+}
+.logo img{
+    width: 80%;
+    height: 100px;
+
+}
+
