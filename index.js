@@ -11,7 +11,9 @@ function Start() {
     user.innerHTML = "User";
     }else{
         user.innerHTML = name;
-    }   
+    } 
+    
+    // alert("<p> </p>");
 }
 function score(){
     var uF = +document.getElementById("ufr").value;
