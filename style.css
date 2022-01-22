@@ -24,6 +24,8 @@ main{
     background-color: white;
     display: flex;
     align-items: center;
+}
+.box1{
     justify-content: center;
 }
 .icons{
@@ -155,6 +157,45 @@ main{
 .logo img{
     width: 80%;
     height: 100px;
+
+}
+.box3{
+    background: #000;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.SBoard{
+    width: 400px;
+    height: 300px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ur,.cr{
+    height: 250px;
+    width: 150px; 
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.fr{
+    width: 80%;
+    height: 40px;
+    border: 2px solid white;
+}
+#ufr,#cfr{
+    height: 150px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    font-size: 3.4em;
+    text-align: center;
 
 }
 
