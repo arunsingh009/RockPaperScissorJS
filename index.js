@@ -75,7 +75,8 @@ function play(){
         document.getElementById("comp").innerHTML="";
         document.getElementById("win").innerHTML="";
         n=0;
-        m++;
+        m=5;
+        turns.innerHTML=5;
         document.getElementById("bigbox").style.display="block";
     }
 
@@ -110,6 +111,7 @@ function play(){
         document.getElementById("win").innerHTML="";
         n=0;
         m=5;
+        turns.innerHTML=5;
         document.getElementById("bigbox").style.display="block";
     }
     }
@@ -144,6 +146,7 @@ function play(){
         document.getElementById("win").innerHTML="";
         n=0;
         m=5;
+        turns.innerHTML=5;
         document.getElementById("bigbox").style.display="block";
     }
     }
