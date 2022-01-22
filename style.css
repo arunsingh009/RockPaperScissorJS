@@ -121,6 +121,10 @@ main{
     display: flex;  
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.menu h2{
+    color: red;
 }
 .start{
     width: 600px;
@@ -166,17 +170,17 @@ main{
     justify-content: space-around;
 }
 .SBoard{
-    width: 400px;
+    width: 100%;
     height: 300px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .ur,.cr{
     height: 250px;
-    width: 150px; 
-    border: 2px solid white;
+    width: 45%; 
+    /* border: 2px solid white; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -185,17 +189,21 @@ main{
 .fr{
     width: 80%;
     height: 40px;
-    border: 2px solid white;
-}
-#ufr,#cfr{
-    height: 150px;
-    width: 100px;
+    /* border: 2px solid white; */
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
+}
+#ufr,#cfr{
+    height: 150px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
     font-size: 3.4em;
     text-align: center;
+    margin: 0px auto;
 
 }
 
