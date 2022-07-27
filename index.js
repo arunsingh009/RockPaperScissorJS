@@ -53,7 +53,7 @@ function play(){
         if(comp.innerHTML == user.innerHTML){
            document.getElementById("win").innerHTML="Tie";
        }else if(comp.innerHTML == "Paper" && user.innerHTML == "Rock" ){
-            document.getElementById("win").innerHTML="User Wins";
+            document.getElementById("win").innerHTML="Computer Wins";
        }else if(comp.innerHTML == "Scissor" && user.innerHTML == "Rock" ){
             document.getElementById("win").innerHTML="Computer Wins";
        }
